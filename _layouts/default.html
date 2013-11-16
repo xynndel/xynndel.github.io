@@ -1,11 +1,16 @@
-<h1>{{ site.title }}</h1>
-<h2>{{ page.title }}</h2>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ site.title }}</title>
+    </head>
+    <body>
+        <h1>{{ site.title }}</h1>
+        <h2>{{ page.title }}</h2>
 
-<p>My Pages:</p>
-<p><a href="index.html">Home</a></p>
-{% raw %}{{ page.title }}{% endraw %}
-
-<p><a href="kittens.html">Kittens</a></p>
-<hr />
-
-{{ content }}
+        <p>My Pages:</p>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="kittens.html">Kittens</a></p>
+        <hr />
+        {{ content }}
+    </body>
+</html>
