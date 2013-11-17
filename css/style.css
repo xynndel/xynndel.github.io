@@ -1,6 +1,13 @@
 h1 {
-		color: hotpink;
-	}
+	color: hotpink;
+	font-size: 44px;
+	text-transform: uppercase;
+	
+	margin: 10px;
+	border: 1px solid red;
+	padding: 5px;
+}
+
 p {
-		color: skyblue;
-	}
+	color: skyblue;
+}
